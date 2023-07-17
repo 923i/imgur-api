@@ -24,7 +24,7 @@ Grab image from gallery link:
 
 
 ```lua
-	imgurapi:GrabImageFromGalleryLink('https://imgur.com/gallery/h75B8Y8')
+imgurapi:GrabImageFromGalleryLink('https://imgur.com/gallery/h75B8Y8')
 ```
 
 Generate random image usually 2010-2015:
