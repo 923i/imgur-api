@@ -1,5 +1,5 @@
 
-# Crappy Imgur Api
+# Simple Imgur Api
 
 ```lua
 local imgurapi =  loadstring(game:HttpGet("https://raw.githubusercontent.com/923i/imgur-api/main/main.lua"))()
