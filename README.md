@@ -10,7 +10,6 @@ local imgurapi =  loadstring(game:HttpGet("https://raw.githubusercontent.com/923
 - gen random image
 - Scrape Analytics
 - Scrape Album
-- Grab Image From Gallery Link
 
 ## Documentation
 
