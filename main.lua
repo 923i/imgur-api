@@ -35,7 +35,7 @@ function imgurapi:Random_sequence(len) -- made this for the generator
     end
     return table.concat(string)
 end
-
+--[[
 function imgurapi:GrabImageFromGalleryLink(link)
 	assert(string.match(link, "%f[%a]gallery%f[%A]"),'gallery links only.')
 
@@ -60,7 +60,7 @@ function imgurapi:GrabImageFromGalleryLink(link)
 end
 
 --imgurapi:GrabImageFromGalleryLink('https://imgur.com/gallery/h75B8Y8')
-
+]]
 function imgurapi:GenRandom(amount, ext, len)
     assert(typeof(amount) == 'number', 'amount needs to be a number.')
     assert(typeof(len) == 'number', 'length needs to be a number.')
