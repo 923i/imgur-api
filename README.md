@@ -2,13 +2,7 @@
 # Crappy Imgur Api
 
 ```lua
-local s,r = pcall(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/923i/imgur-api/main/main.lua"))()
-end)
-
-if not s then
-	print('something went wrong ',r)
-end
+local imgurapi =  loadstring(game:HttpGet("https://raw.githubusercontent.com/923i/imgur-api/main/main.lua"))()
 ```
 
 ## Features
