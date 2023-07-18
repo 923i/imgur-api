@@ -1,7 +1,7 @@
 
-# Simple Imgur Api
+# Simple Imgur Api (unfinished, still have a lot more features/code cleaning im gonna do *eventually*)
 
-```lua
+```lua 
 local imgurapi =  loadstring(game:HttpGet("https://raw.githubusercontent.com/923i/imgur-api/main/main.lua"))()
 ```
 
